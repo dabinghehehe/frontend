@@ -10,7 +10,7 @@ import App from './App';
 //渲染根组件APP 到一个id为root的dom节点上  
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  //y严格模式节点去掉
+  //useEffrct的执行时机
     <App />
-  </React.StrictMode>
 )
